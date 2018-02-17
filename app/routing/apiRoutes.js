@@ -32,7 +32,7 @@ module.exports = function(app){
 		var dif = 0;
 
 		for(var i = 0; i < 10; i++){
-			dif += Math.abs(base["ans[]"][i] - friend.ans[i]);
+			dif += Math.abs(base.ans[i] - friend.ans[i]);
 		}
 		return dif;
 	}
